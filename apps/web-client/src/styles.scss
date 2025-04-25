@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans Bold';
+}
+
+body {
+  background-color: #F4F5F9;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: auto;
+}
+
+@font-face {
+  font-family: 'PT Sans Bold';
+  src: url("./assets/pt-sans_bold.ttf"),
+}
+
+@font-face {
+  font-family: 'PT Sans Regular';
+  src: url("./assets/pt-sans_regular.ttf"),
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("./assets/BebasNeue-Bold.ttf"),
+}

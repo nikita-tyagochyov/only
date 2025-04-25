@@ -1,0 +1,11 @@
+.container {
+  width: 5px;
+  height: 120px;
+  background: linear-gradient(180deg, #3877EE -5%, #EF5DA8 85%);
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    visibility: hidden;
+  }
+}

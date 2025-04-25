@@ -1,0 +1,24 @@
+.container {
+  position: absolute;
+  display: flex;
+  gap: 81px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-510px, -50%);
+
+  :nth-child(n) {
+    color: #5D5FEF
+  }
+
+  :nth-child(2n) {
+    color: #EF5DA8
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    gap: 17px;
+    top: 35%;
+    left: 183%;
+  }
+}

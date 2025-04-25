@@ -1,0 +1,30 @@
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 60px;
+  gap: 70px;
+
+  .header {
+    width: 353px;
+    font-family: PT Sans Bold;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #42567A
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    top: 30px;
+    left: -65px;
+
+    .header {
+      width: 123px;
+      font-size: 20px;
+    }
+  }
+}

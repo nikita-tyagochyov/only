@@ -1,0 +1,9 @@
+.container {
+  background-color: #F4F5F9;
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    visibility: hidden;
+  }
+}
